@@ -2,6 +2,7 @@ from pydantic import BaseModel
 
 class ToolConfigBase(BaseModel):
     config: str
+    app_id: int
 
 class ToolConfigCreate(ToolConfigBase):
     pass

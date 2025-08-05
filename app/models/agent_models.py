@@ -2,6 +2,7 @@ from pydantic import BaseModel
 
 class AgentConfigBase(BaseModel):
     config: str
+    app_id: int
 
 class AgentConfigCreate(AgentConfigBase):
     pass
