@@ -4,3 +4,8 @@ sqlalchemy
 pymysql
 python-dotenv
 pydantic
+pydantic-settings
+langgraph
+google-generativeai
+langchain
+langchain-google-genai

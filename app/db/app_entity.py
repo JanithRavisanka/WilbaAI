@@ -8,3 +8,4 @@ class App(Base):
     name = Column(String(255), nullable=False)
     agent_config = relationship("AgentConfig", uselist=False, back_populates="app")
     tool_config = relationship("ToolConfig", uselist=False, back_populates="app")
+    threads = relationship("Thread", back_populates="app")
